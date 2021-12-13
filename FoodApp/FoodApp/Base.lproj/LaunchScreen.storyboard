@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lSI-1Z-0mt">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EeT-ft-ELk">
+            <objects>
+                <viewController id="lSI-1Z-0mt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFill" id="Bxx-kl-0g8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flavor2" translatesAutoresizingMaskIntoConstraints="NO" id="ise-cc-LSI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iio-4k-agA">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FLAVOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfJ-M6-TDH">
+                                <rect key="frame" x="30" y="184" width="354" height="54"/>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="W9D-MR-xKD"/>
+                        <constraints>
+                            <constraint firstItem="WfJ-M6-TDH" firstAttribute="top" secondItem="W9D-MR-xKD" secondAttribute="top" constant="140" id="31Q-ro-yyB"/>
+                            <constraint firstItem="iio-4k-agA" firstAttribute="leading" secondItem="W9D-MR-xKD" secondAttribute="leading" id="4gE-81-DXe"/>
+                            <constraint firstItem="W9D-MR-xKD" firstAttribute="trailing" secondItem="WfJ-M6-TDH" secondAttribute="trailing" constant="30" id="AAr-z5-S1D"/>
+                            <constraint firstItem="ise-cc-LSI" firstAttribute="leading" secondItem="Bxx-kl-0g8" secondAttribute="leading" id="Ac9-jz-jFy"/>
+                            <constraint firstItem="ise-cc-LSI" firstAttribute="top" secondItem="Bxx-kl-0g8" secondAttribute="top" id="Apg-z5-fJO"/>
+                            <constraint firstItem="iio-4k-agA" firstAttribute="trailing" secondItem="W9D-MR-xKD" secondAttribute="trailing" id="W9D-lQ-jJl"/>
+                            <constraint firstAttribute="trailing" secondItem="ise-cc-LSI" secondAttribute="trailing" id="hQo-2d-QbN"/>
+                            <constraint firstAttribute="bottom" secondItem="iio-4k-agA" secondAttribute="bottom" id="jhH-qW-191"/>
+                            <constraint firstItem="iio-4k-agA" firstAttribute="top" secondItem="Bxx-kl-0g8" secondAttribute="top" id="jjm-nS-wEI"/>
+                            <constraint firstAttribute="bottom" secondItem="ise-cc-LSI" secondAttribute="bottom" id="lY3-Ox-wmn"/>
+                            <constraint firstItem="WfJ-M6-TDH" firstAttribute="leading" secondItem="W9D-MR-xKD" secondAttribute="leading" constant="30" id="tBp-Iu-j9a"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gvt-HO-3cd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V3V-3m-rxv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44.927536231884062" y="255.80357142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flavor2" width="715" height="1920"/>
+    </resources>
+</document>

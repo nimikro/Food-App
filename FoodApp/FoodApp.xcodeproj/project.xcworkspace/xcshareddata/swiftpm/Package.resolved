@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NVActivityIndicatorView",
+        "repositoryURL": "https://github.com/ninjaprox/NVActivityIndicatorView.git",
+        "state": {
+          "branch": null,
+          "revision": "35182298f37d2add3f56f28b76d57eb9d78c4d7a",
+          "version": "5.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
